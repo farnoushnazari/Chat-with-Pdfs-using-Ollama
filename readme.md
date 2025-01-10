@@ -70,7 +70,6 @@
     │   │   ├── utils/
     │   │   │   ├── config.py           # Configuration file for model settings
     │   │   │   ├── htmlTemplates.py    # HTML templates for responses
-    │   │   ├── vector_db/
 
 ---
 
