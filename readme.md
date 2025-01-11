@@ -58,18 +58,17 @@
     ├── requirements.txt        # Project dependencies
     ├── readme.md               # Project documentation
     ├── src/
-    │   ├── core/
-    │   │   ├── data/
-    │   │   │   ├── embedded_vector.py  # Vector embedding and text extraction
-    │   │   │   ├── retriever.py        # Document retrieval logic
-    │   │   ├── model/
-    │   │   │   ├── ollama_model.py     # Language model integration
-    │   │   ├── prompt/
-    │   │   │   ├── augment_prompt.py   # Augmenting prompts for better answers
-    │   │   │   ├── retriever_prompt.py # Multi-query and agent prompt templates
-    │   │   ├── utils/
-    │   │   │   ├── config.py           # Configuration file for model settings
-    │   │   │   ├── htmlTemplates.py    # HTML templates for responses
+    │   ├── data/
+    │   │   ├── embedded_vector.py  # Vector embedding and text extraction
+    │   │   ├── retriever.py        # Document retrieval logic
+    │   ├── model/
+    │   │   ├── ollama_model.py     # Language model integration
+    │   ├── prompt/
+    │   │   ├── augment_prompt.py   # Augmenting prompts for better answers
+    │   │   ├── retriever_prompt.py # Multi-query and agent prompt templates
+    │   ├── utils/
+    │   │   ├── config.py           # Configuration file for model settings
+    │   │   ├── htmlTemplates.py    # HTML templates for responses
 
 ---
 
