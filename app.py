@@ -1,9 +1,9 @@
 import streamlit as st
 from langchain.chains.combine_documents import create_stuff_documents_chain
-from src.core.data.embedded_vector import get_pdf_text, get_text_chunk, get_vectorstore
-from src.core.data.retriever import HybridRetriever
-from src.core.prompt.augment_prompt import get_augment_prompt
-from src.core.model.ollama_model import get_model
+from src.data.embedded_vector import get_pdf_text, get_text_chunk, get_vectorstore
+from src.data.retriever import HybridRetriever
+from src.prompt.augment_prompt import get_augment_prompt
+from src.model.ollama_model import get_model
 
 def main():
     st.header("✨ Chat with multiple PDF files ✨")

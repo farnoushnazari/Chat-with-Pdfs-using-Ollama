@@ -1,6 +1,6 @@
 import ollama
 from langchain_ollama import ChatOllama
-from src.core.utils.config import cfg
+from src.utils.config import cfg
 
 model = None
 

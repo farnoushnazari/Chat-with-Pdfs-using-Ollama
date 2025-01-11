@@ -6,7 +6,7 @@ from streamlit.runtime.uploaded_file_manager import UploadedFile
 from langchain.text_splitter import RecursiveCharacterTextSplitter 
 from langchain_community.vectorstores import Chroma
 from langchain_ollama import OllamaEmbeddings
-from src.core.utils.config import cfg
+from src.utils.config import cfg
 
 def get_pdf_text(
         uploded_files: List[UploadedFile]

@@ -7,11 +7,11 @@ from langchain.agents import (
     AgentExecutor,
     create_react_agent,
 )
-from src.core.prompt.retriever_prompt import (
+from src.prompt.retriever_prompt import (
     get_multi_retriever_prompt, 
     get_retriever_agent_prompt
 )
-from src.core.model.ollama_model import get_model
+from src.model.ollama_model import get_model
 
 
 class HybridRetriever:
